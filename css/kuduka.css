@@ -1,0 +1,380 @@
+.application{
+  text-align: center;
+  background-color: #1D2326;
+  
+}
+.application a{
+  font-size:1.2rem;
+  z-index: 6;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+.kuduk-flex{
+  z-index: 5;
+  top: 40%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  width: 15rem;
+  height: 15rem;
+  }
+.kuduk-flex p{
+    font-size: larger;
+    z-index: 5;
+    top: 60%;
+    left: -50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    width: 40rem;
+    height: 15rem;
+    font-family: 'Poppins', sans-serif;
+    opacity: 50%;
+    }
+  .kuduk-logo{
+    z-index: 1;
+    position: absolute;
+    top: 35%;
+    left: 59%;
+    width: 20%;
+    height: 20%;
+  
+  }
+  .phone-no, .name {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+  }
+  .phone-no {
+    margin-left: 7%;
+    font-family: 'Poppins', sans-serif;
+  }
+  .phone-no a{
+    text-decoration: none; 
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  .phone-list {
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  top: 220%;
+  left: -50%;
+  transform: translate(-50%, -50%);
+  width: 15rem;
+  height: 15rem;
+  font-size: larger;
+  color: aliceblue;
+  font-family: 'Poppins', sans-serif;
+  
+  }
+  .con {
+    font-size: 10mm;
+    z-index: 5;
+    top: 30%;
+    left: 63%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    width: 40rem;
+    height: 15rem;
+    font-family: 'Bebas Neue', cursive;
+    opacity: 50%;
+  }
+  .quote{
+    font-size: 5.5mm;
+    z-index: 5;
+    top: 90%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    width: 30rem;
+    height: 15rem;
+    font-family: 'Poppins', sans-serif;
+    opacity: 15%;
+  }  
+       @media screen and (max-width: 1152px) {
+        .kuduk-flex{
+          top: 28%;
+          left: 39%;
+          width: 5rem;
+          height: 5rem;
+          }
+          .kuduk-flex p{
+            font-size: 5mm;
+            top: 280%;
+            left: 30%;
+            width: 35rem;
+            height: 25rem;
+            }
+          .kuduk-logo{    
+            top: 33%;
+            left: 65%;
+            width: 30%;
+            height: 30%;
+          
+          }
+          .phone-list {
+          top: 720%;
+          left: 0%;
+          width: 15rem;
+          height: 15rem;
+          font-size:5mm;
+          }
+          .con {
+            font-size: 6mm;
+            top: 39%;
+            left: 38%;
+            width: 40rem;
+            height: 15rem
+          }
+          .quote{
+            font-size: 7mm;
+            top: 200%;
+            left: 155%;
+            width: 35rem;
+            height: 15rem;
+            
+          }
+          .wave1 {
+            height: 170vh;
+          }
+          #kuduka h2 {
+            left: 16%;
+            top: 18%;
+          }
+          #kuduka {
+            position: relative;
+            width: 100%;
+            height: 170vh;
+          }
+        }
+        @media screen and (max-width: 900px) {
+          .kuduk-flex{
+            top: 28%;
+            left: 39%;
+            width: 5rem;
+            height: 5rem;
+            }
+            .kuduk-flex p{
+              font-size: 4.5mm;
+              top: 280%;
+              left: 30%;
+              width: 30rem;
+              height: 25rem;
+              }
+            .kuduk-logo{    
+              top: 40%;
+              left: 70%;
+              width: 25%;
+              height: 25%;
+            
+            }
+            .phone-list {
+            top: 650%;
+            left: 20%;
+            width: 15rem;
+            height: 15rem;
+            font-size:4.5mm;
+            }
+            .con {
+              font-size: 6mm;
+              top: 39%;
+              left: 38%;
+              width: 40rem;
+              height: 15rem
+            }
+            .quote{
+              font-size: 6.5mm;
+              top: 100%;
+              left: 165%;
+              width: 35rem;
+              height: 15rem;
+              
+            }
+            .wave1 {
+              height: 140vh;
+            }
+            #kuduka h2 {
+              left: 11%;
+              top: 20%;
+            }
+            #kuduka {
+              position: relative;
+              width: 100%;
+              height: 155vh;
+            }
+          }
+          @media screen and (max-width: 700px) {
+            .kuduk-flex{
+              top: 27%;
+              left: 39%;
+              width: 5rem;
+              height: 5rem;
+              }
+              .kuduk-flex p{
+                font-size: 4mm;
+                top: 260%;
+                left: 20%;
+                width: 20rem;
+                height: 25rem;
+                }
+              .kuduk-logo{    
+                top: 43%;
+                left: 70%;
+                width: 25%;
+                height: 25%;
+              
+              }
+              .phone-list {
+              top: 720%;
+              left: 90%;
+              width: 15rem;
+              height: 15rem;
+              font-size:3.4mm;
+              }
+              .con {
+                font-size: 6mm;
+                top: 39%;
+                left: 38%;
+                width: 40rem;
+                height: 15rem
+              }
+              .quote{
+                font-size: 4.5mm;
+                top: 150%;
+                left: 155%;
+                width: 24rem;
+                height: 15rem;
+                
+              }
+              .wave1 {
+                height: 150vh;
+              }
+              #kuduka h2 {
+                left: 16%;
+                top: 18%;
+              }
+              #kuduka {
+                position: relative;
+                width: 100%;
+                height: 160vh;
+              }
+            }
+            @media screen and (max-width: 500px) {
+              .kuduk-flex{
+                top: 27%;
+                left: 35%;
+                width: 5rem;
+                height: 5rem;
+                }
+                .kuduk-flex p{
+                  font-size: 3.2mm;
+                  top: 270%;
+                  left: 40%;
+                  width: 15rem;
+                  height: 25rem;
+                  }
+                .kuduk-logo{    
+                  top: 41%;
+                  left: 60%;
+                  width: 35%;
+                  height: 35%;
+                
+                }
+                .phone-list {
+                top: 650%;
+                left: 90%;
+                width: 15rem;
+                height: 15rem;
+                font-size:3.5mm;
+                }
+                .con {
+                  font-size: 6mm;
+                  top: 39%;
+                  left: 38%;
+                  width: 40rem;
+                  height: 15rem
+                }
+                .quote{
+                  font-size: 3.5mm;
+                  top: 100%;
+                  left: 155%;
+                  width: 20rem;
+                  height: 15rem;
+                  
+                }
+                .wave1 {
+                  height: 140vh;
+                }
+                #kuduka h2 {
+                  left: 8%;
+                  top: 10%;
+                }
+                #kuduka {
+                  position: relative;
+                  width: 100%;
+                  height: 140vh;
+                }
+              }
+              @media screen and (max-width: 362px) {
+                .kuduk-flex{
+                  top: 26%;
+                  left: 29%;
+                  width: 5rem;
+                  height: 5rem;
+                  }
+                  .kuduk-flex p{
+                    font-size: 3.2mm;
+                    top: 590%;
+                    left: 150%;
+                    width: 15rem;
+                    height: 25rem;
+                    }
+                  .kuduk-logo{    
+                    top: 38%;
+                    left: 23%;
+                    width: 60%;
+                    height: 60%;
+                  
+                  }
+                  .phone-list {
+                  top: 940%;
+                  left: 90%;
+                  width: 15rem;
+                  height: 15rem;
+                  font-size:3.5mm;
+                  }
+                  .con {
+                    font-size: 6mm;
+                    top: 39%;
+                    left: 38%;
+                    width: 40rem;
+                    height: 15rem
+                  }
+                  .quote{
+                    font-size: 3.5mm;
+                    top: 320%;
+                    left: 155%;
+                    width: 17rem;
+                    height: 15rem;
+                    
+                  }
+                  .wave1 {
+                    height: 160vh;
+                  }
+                  #kuduka h2 {
+                    left: 16%;
+                    top: 18%;
+                  }
+                  #kuduka {
+                    position: relative;
+                    width: 100%;
+                    height: 170vh;
+                  }
+                }
+             
